@@ -1,3 +1,5 @@
+# Script para loguear tiempos de arranque
+
 $Station =  hostname
 $yesterday = (Get-Date) - (New-TimeSpan -day 900)
 $Global:ObjectResults = @()

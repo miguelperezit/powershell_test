@@ -1,17 +1,3 @@
-##############################################################################################
-#
-#     Microsoft-Windows-Diagnostics-Performance Analytics
-#     
-#     IT Department
-#
-#     Softonic Int. S.A.
-#
-#     v.1.0
-#
-##############################################################################################
-
-
-
 $Station =  hostname
 $yesterday = (Get-Date) - (New-TimeSpan -day 900)
 $Global:ObjectResults = @()
